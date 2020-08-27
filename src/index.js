@@ -5,7 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+  
   <React.StrictMode>
+  <script src="http://www.webglearth.com/v2/api.js"></script>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
