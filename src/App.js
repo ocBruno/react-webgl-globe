@@ -2,26 +2,26 @@ import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Globe from 'react-globe.gl';
+import axios from "axios"
 
 const World = () => {
-  const [countries, setCountries] = useState({ features: []});
-
+  const [places, setPlaces] = useState([]);
+  console.log(places)
   useEffect(() => {
     // load data
-    fetch('../datasets/ne_110m_admin_0_countries.geojson').then(res => res.json()).then(setCountries);
+      fetch('../datasets/ne_110m_populated_places_simple.geojson').then(res => res.json())
+      .then(({ features }) => setPlaces(features));
   }, []);
-
   return <Globe
-    globeImageUrl="//unpkg.com/three-globe/example/img/earth-dark.jpg"
-
-    hexPolygonsData={countries.features}
-    hexPolygonResolution={3}
-    hexPolygonMargin={0.3}
-    hexPolygonColor={() => `#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}`}
-    hexPolygonLabel={({ properties: d }) => `
-      <b>${d.ADMIN} (${d.ISO_A2})</b> <br />
-      Population: <i>${d.POP_EST}</i>
-    `}
+    globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+    labelsData={places}
+    labelLat={d => d.properties.latitude}
+    labelLng={d => d.properties.longitude}
+    labelText={d => d.properties.name}
+    labelSize={d => Math.sqrt(d.properties.pop_max) * 4e-4}
+    labelDotRadius={d => Math.sqrt(d.properties.pop_max) * 4e-4}
+    labelColor={() => 'rgba(255, 165, 0, 0.75)'}
+    labelResolution={2}
   />;
 };
 

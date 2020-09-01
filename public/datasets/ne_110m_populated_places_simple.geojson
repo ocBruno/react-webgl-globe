@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 0,
+        "natscale": 600,
+        "labelrank": 3,
+        "featurecla": "Admin-0 capital",
+        "name": "Rome",
+        "namepar": null,
+        "namealt": null,
+        "diffascii": 0,
+        "nameascii": "Rome",
+        "adm0cap": 1,
+        "capalt": null,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "Italy",
+        "sov_a3": "ITA",
+        "adm0name": "Italy",
+        "adm0_a3": "ITA",
+        "adm1name": "Lazio",
+        "iso_a2": "IT",
+        "note": null,
+        "latitude": 41.8959556265,
+        "longitude": 12.4832584215,
+        "changed": 0,
+        "namediff": 0,
+        "diffnote": null,
+        "pop_max": 3339000,
+        "pop_min": 35452,
+        "pop_other": 2050212,
+        "rank_max": 12,
+        "rank_min": 7,
+        "geonameid": 3169070,
+        "meganame": "Rome",
+        "ls_name": "Rome",
+        "ls_match": 1,
+        "checkme": 0,
+        "min_zoom": 2.7
+      },
+      "bbox": [
+        12.481313,
+        41.897901,
+        12.481313,
+        41.897901
+      ],  
+      "geometry": {
+        "type": "Point",
+        "style": {
+          "fillColor": "blue",
+          "weight": 2,
+          "opacity": 1,
+          "color": "white",  
+          "fillOpacity": 0.7
+      },
+        "coordinates": [
+          12.481313,
+          41.897901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "natscale": 300,
+        "labelrank": 1,
+        "featurecla": "Populated place",
+        "name": "San Francisco",
+        "namepar": null,
+        "namealt": "San Francisco-Oakland",
+        "diffascii": 0,
+        "nameascii": "San Francisco",
+        "adm0cap": 0,
+        "capalt": null,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "United States",
+        "sov_a3": "USA",
+        "adm0name": "United States of America",
+        "adm0_a3": "USA",
+        "adm1name": "California",
+        "iso_a2": "US",
+        "note": null,
+        "latitude": 37.7400077505,
+        "longitude": -122.459977663,
+        "changed": 0,
+        "namediff": 0,
+        "diffnote": null,
+        "pop_max": 3450000,
+        "pop_min": 732072,
+        "pop_other": 27400,
+        "rank_max": 12,
+        "rank_min": 11,
+        "geonameid": 5391959,
+        "meganame": "San Francisco-Oakland",
+        "ls_name": "San Francisco1",
+        "ls_match": 1,
+        "checkme": 0,
+        "min_zoom": 2.7
+      },
+      "bbox": [
+        -122.417169,
+        37.769196,
+        -122.417169,
+        37.769196
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.417169,
+          37.769196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "natscale": 300,
+        "labelrank": 3,
+        "featurecla": "Admin-0 capital",
+        "name": "Berlin",
+        "namepar": null,
+        "namealt": null,
+        "diffascii": 0,
+        "nameascii": "Berlin",
+        "adm0cap": 1,
+        "capalt": null,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "Germany",
+        "sov_a3": "DEU",
+        "adm0name": "Germany",
+        "adm0_a3": "DEU",
+        "adm1name": "Berlin",
+        "iso_a2": "DE",
+        "note": null,
+        "latitude": 52.5218186636,
+        "longitude": 13.4015486233,
+        "changed": 0,
+        "namediff": 0,
+        "diffnote": null,
+        "pop_max": 3406000,
+        "pop_min": 3094014,
+        "pop_other": 3013258,
+        "rank_max": 12,
+        "rank_min": 12,
+        "geonameid": 2950159,
+        "meganame": "Berlin",
+        "ls_name": "Berlin",
+        "ls_match": 1,
+        "checkme": 0,
+        "min_zoom": 2.7
+      },
+      "bbox": [
+        13.399603,
+        52.523765,
+        13.399603,
+        52.523765
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.399603,
+          52.523765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 0,
+        "natscale": 600,
+        "labelrank": 3,
+        "featurecla": "Admin-0 capital",
+        "name": "Paris",
+        "namepar": null,
+        "namealt": null,
+        "diffascii": 0,
+        "nameascii": "Paris",
+        "adm0cap": 1,
+        "capalt": null,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "French Republic",
+        "sov_a3": "FRA",
+        "adm0name": "France",
+        "adm0_a3": "FRA",
+        "adm1name": "Île-de-France",
+        "iso_a2": "FR",
+        "note": null,
+        "latitude": 48.8666929312,
+        "longitude": 2.33333532574,
+        "changed": 0,
+        "namediff": 0,
+        "diffnote": null,
+        "pop_max": 9904000,
+        "pop_min": 11177,
+        "pop_other": 7142744,
+        "rank_max": 13,
+        "rank_min": 6,
+        "geonameid": 2988507,
+        "meganame": "Paris",
+        "ls_name": "Paris",
+        "ls_match": 1,
+        "checkme": 0,
+        "min_zoom": 1.7
+      },
+      "bbox": [
+        2.331389,
+        48.868639,
+        2.331389,
+        48.868639
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.331389,
+          48.868639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 0,
+        "natscale": 600,
+        "labelrank": 2,
+        "featurecla": "Admin-0 capital",
+        "name": "Mexico City",
+        "namepar": null,
+        "namealt": "Ciudad de M",
+        "diffascii": 0,
+        "nameascii": "Mexico City",
+        "adm0cap": 1,
+        "capalt": null,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "Mexico",
+        "sov_a3": "MEX",
+        "adm0name": "Mexico",
+        "adm0_a3": "MEX",
+        "adm1name": "Distrito Federal",
+        "iso_a2": "MX",
+        "note": null,
+        "latitude": 19.4424424428,
+        "longitude": -99.1309882017,
+        "changed": 0,
+        "namediff": 0,
+        "diffnote": null,
+        "pop_max": 19028000,
+        "pop_min": 10811002,
+        "pop_other": 10018444,
+        "rank_max": 14,
+        "rank_min": 14,
+        "geonameid": 3530597,
+        "meganame": "Ciudad de Mdxico",
+        "ls_name": "Mexico City",
+        "ls_match": 1,
+        "checkme": 0,
+        "min_zoom": 2.1
+      },
+      "bbox": [
+        -99.132934,
+        19.444388,
+        -99.132934,
+        19.444388
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.132934,
+          19.444388
+        ]
+      }
+    }
+  ],
+  "bbox": [
+    -175.220564477617,
+    -41.2999878536917,
+    179.216647094029,
+    64.1500236197392
+  ]
+}
